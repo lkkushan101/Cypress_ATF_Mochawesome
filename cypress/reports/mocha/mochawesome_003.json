@@ -1,0 +1,78 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-04-12T15:02:29.930Z",
+    "end": "2020-04-12T15:02:42.756Z",
+    "duration": 12826,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "b274c831-1a5a-4e55-a938-e95d9e3540d5",
+    "title": "",
+    "fullFile": "cypress\\integration\\examples\\TestCase1.js",
+    "file": "cypress\\integration\\examples\\TestCase1.js",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "185618d9-7a25-4555-8a38-6c95f268394d",
+        "title": "My First Test Script - Guru 99 Login",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "Visits the Page and Login",
+            "fullTitle": "My First Test Script - Guru 99 Login Visits the Page and Login",
+            "duration": 8611,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "var loginPage = new _LoginPage[\"default\"]();\nvar homePage = new _HomePage[\"default\"]();\ncy.visit(data.url);\nloginPage.typeUserName(data.userName);\nloginPage.typePassword(data.password);\nloginPage.clickLogin();\nhomePage.verifyUserName(data.userName);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "8cfc31d8-f5fa-44ca-80b7-106c6885bb2b",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "8cfc31d8-f5fa-44ca-80b7-106c6885bb2b"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 8611,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2020
+}

@@ -1,0 +1,78 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-04-12T14:49:36.434Z",
+    "end": "2020-04-12T14:50:13.799Z",
+    "duration": 37365,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "f346cc71-e77b-4223-a2b4-de4b6f835319",
+    "title": "",
+    "fullFile": "cypress\\integration\\examples\\kushan_login.js",
+    "file": "cypress\\integration\\examples\\kushan_login.js",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "77b103d1-55f8-431d-9e43-9c0d46c9ac14",
+        "title": "Login Test",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "Login To Guru 99",
+            "fullTitle": "Login Test Login To Guru 99",
+            "duration": 28548,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "cy.visit(\"https://demo.guru99.com/v4/\");\ncy.get('body > form > table > tbody > tr:nth-child(1) > td:nth-child(2) > input[type=text]').type('mngr254945');\ncy.get('body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > input[type=password]').type('ymytuba');\ncy.get('body > form > table > tbody > tr:nth-child(3) > td:nth-child(2) > input[type=submit]:nth-child(1)').click();\ncy.get('body > table > tbody > tr > td > table > tbody > tr.heading3 > td').should('be.visible');",
+            "err": {},
+            "isRoot": false,
+            "uuid": "cd0066ab-7e35-41af-be89-ef68804fc2eb",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "cd0066ab-7e35-41af-be89-ef68804fc2eb"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 28548,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2020
+}
